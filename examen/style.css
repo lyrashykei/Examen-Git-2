@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 10px;
+    text-align: center;
+}
+.box{
+    margin:0px;
+    width: 100%;
+    font-size: 15px;
+    height: 50px;
+    background-color: rgba(22, 17, 92, 0.925);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.container{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(229, 228, 245, 0.925);
+    width:500px;
+    height: 150px;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 500px;
+    font-size: 15px;
+    box-shadow: inset -10px -10px 10px rgba(102, 102, 102, 0.5);
+}
